@@ -1,0 +1,39 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int grade;
+    cout << ("Enter a grade input : ");
+    cin >> grade;
+    
+    if (grade >= 94 && grade <= 100){
+        cout << "Your output grade is: 1.00";
+    }   
+    if (grade >= 88.50 && grade <= 93.39){
+        cout << "Your output grade is: 1.25";
+    }
+    if (grade >= 83 && grade <= 88.49){
+        cout << "Your output grade is: 1.50";
+    }
+    if (grade >= 77.5 && grade <= 82.99){
+        cout << "Your output grade is: 1.75";
+    }
+    if (grade >= 72 && grade <= 77.49){
+        cout << "Your output grade is: 2.00";
+    }    
+    if (grade >= 65.5 && grade <= 71.99){
+        cout << "Your output grade is: 2.25";
+    }
+    if (grade >= 61 && grade <= 65.49){
+        cout << "Your output grade is: 2.50";
+    }
+    if (grade >= 55.5 && grade <= 60.99){
+        cout << "Your output grade is: 2.75";
+    }
+    if (grade >= 50 && grade <= 55.49){
+        cout << "Your output grade is: 3.00";
+    }
+    else if (grade > 100 && grade < 0) 
+        cout << (" ! Wrong data ");
+return 0;
+}
